@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class StudentSorter {
-    ArrayList <Student> students;
+    private ArrayList <Student> students;
 
     public static void main(String[] args) {
         new StudentSorter().run();
