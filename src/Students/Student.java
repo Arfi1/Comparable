@@ -1,3 +1,5 @@
+package Students;
+
 public class Student implements Comparable<Student>{
     private String name;
     private int zipCode;
@@ -14,7 +16,7 @@ public class Student implements Comparable<Student>{
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "Students.Student{" +
                 "name='" + name + '\'' +
                 ", zipCode=" + zipCode +
                 ", livingWithParents=" + livingWithParents +
